@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {  BrowserRouter , Routes , Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
@@ -10,7 +10,7 @@ import AdmissionPage from "./pages/AdmissionPage";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
 
       <Routes>
         <Route path="/homepage" element={<HomePage/>}/>
@@ -21,7 +21,7 @@ const App = () => {
       </Routes>
       
 
-    </Router>
+    </BrowserRouter>
   )
 }
 export default App
