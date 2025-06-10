@@ -5,14 +5,14 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import AdmissionPage from "./pages/AdmissionPage";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/aboutpage" element={<AboutPage/>}/>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/contactpage" element={<ContactPage/>}/>
           <Route path="/admissionpage" element={<AdmissionPage/>}/>
         </Routes>
-     </BrowserRouter>
+     </Router>
     </div>
     
   )
