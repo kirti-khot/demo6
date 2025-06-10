@@ -7,12 +7,12 @@ import './style.css'
 const HomePage = () => {
     return (
         
-        <div class="content">
+        <div className="content">
             <Header/>
-                    <div class="page-container">
-                        <div class="college-image">
-                            <img src="./src/assets/college.jpg" alt="VCK" class="college-image"></img>
-                            <div class="front-image">
+                    <div className="page-container">
+                        <div className="college-image">
+                            <img src="./src/assets/college.jpg" alt="VCK" className="college-image"></img>
+                            <div className="front-image">
                                 <h1>Welcome to Vivekanand College!</h1>
                                 <p>Your journey to excellence starts here.</p>
                                 <a href="AdmissionPage" id="main1"><u>Apply Now!</u></a>
@@ -35,12 +35,12 @@ const HomePage = () => {
                         </ul>
                         <h2>Campus Life & Facilities </h2>
                         <div>
-                            <img src="./src/assets/vck1.jpg" class="page1-container"></img>
-                            <img src="./src/assets/campus.jpg" class="page2-container"></img>
+                            <img src="./src/assets/vck1.jpg" className="page1-container"></img>
+                            <img src="./src/assets/campus.jpg" className="page2-container"></img>
                         </div>
             
-                        <p class="demo"> Ready to explore our courses? </p>
-                        <a href="CoursesPage" class="demo1">Explore Courses</a>
+                        <p className="demo"> Ready to explore our courses? </p>
+                        <a href="CoursesPage" className="demo1">Explore Courses</a>
                     
                     </div>
             <Footer/>

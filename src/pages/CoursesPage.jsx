@@ -5,10 +5,10 @@ import './style.css'
 
 const CoursesPage = () => {
     return (
-        <div class="content">
+        <div className="content">
             <Header/>
-            <div class="page-container">
-                <h1 class="demo2">Our Academic Programs</h1>
+            <div className="page-container">
+                <h1 className="demo2">Our Academic Programs</h1>
 
                 <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed 
                 to equip students with the knowledge and skills demanded by today's dynamic global landscape. 
@@ -71,7 +71,7 @@ const CoursesPage = () => {
 
                 <h2>Program Details & Fee Structure (Annual)</h2>
                 <hr></hr>
-                <table border="solid" class="admissiontable">
+                <table border="solid" className="admissiontable">
                     <tr>
                         <th>Program Type</th>
                         <th>Course Name</th>
@@ -110,10 +110,10 @@ const CoursesPage = () => {
                 like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing 
                 specialized training for career enhancement.</p>
 
-                <p class="demo3">Have questions about a specific course?</p>
+                <p className="demo3">Have questions about a specific course?</p>
         
 
-                <a href="ContactPage" class="demo1">Inquire About Courses</a>
+                <a href="ContactPage" className="demo1">Inquire About Courses</a>
         </div>
         <Footer/>
 

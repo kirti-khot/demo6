@@ -4,17 +4,17 @@ import Footer from "../components/Footer/Footer";
 
 const AdmissionPage = () => {
     return (
-        <div class="content">
+        <div className="content">
             <Header/>
-            <div class="page-container">
-                <h1 class="demo2">Admission at Vivekanand College</h1>
+            <div className="page-container">
+                <h1 className="demo2">Admission at Vivekanand College</h1>
                 <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering 
                 joining our vibrant academic community. Our admission process is designed to be straightforward 
                 and accessible.</p>
                 <p>Please review the eligibility criteria and key dates below for the upcoming academic year. 
                 For any queries, feel free to contact our admissions office.</p>
                 <h2>Eligibility Criteria for Undergraduate Programs</h2>
-                <table border="solid" class="admissiontable">
+                <table border="solid" className="admissiontable">
                     <tr>
                         <th>Program</th>
                         <th>Minimum Qualification</th>

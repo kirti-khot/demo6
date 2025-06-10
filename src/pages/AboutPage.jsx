@@ -4,10 +4,10 @@ import Footer from "../components/Footer/Footer";
 import './style.css'
 const AboutPage = () => {
     return (
-        <div class="content">
+        <div className="content">
             <Header/>
-            <div class="page-container">
-                <h1 class="demo2">About Vivekanand College</h1>
+            <div className="page-container">
+                <h1 className="demo2">About Vivekanand College</h1>
 
                 <p>Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering
                 transformative education since its inception in [Year of Establishment, e.g., 1980]. 
