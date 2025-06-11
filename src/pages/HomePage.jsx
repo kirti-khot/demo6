@@ -11,9 +11,9 @@ const HomePage = () => {
             <Header/>
                     <div className="page-container">
                         <div className="college-image">
-                            <img src="./src/assets/college.jpg" alt="VCK" className="college-image"></img>
+                            <img src="./Images/college.jpg" alt="VCK" className="college-image"></img>
                             <div className="front-image">
-                                <h1>Welcome to Vivekanand College!</h1>
+                                <h1><b>Welcome to Vivekanand College!</b></h1>
                                 <p>Your journey to excellence starts here.</p>
                                 <a href="AdmissionPage" id="main1"><u>Apply Now!</u></a>
                             </div>
@@ -35,8 +35,8 @@ const HomePage = () => {
                         </ul>
                         <h2>Campus Life & Facilities </h2>
                         <div>
-                            <img src="./src/assets/vck1.jpg" className="page1-container"></img>
-                            <img src="./src/assets/campus.jpg" className="page2-container"></img>
+                            <img src="./Images/vck1.jpg" className="page1-container"></img>
+                            <img src="./Images/campus.jpg" className="page2-container"></img>
                         </div>
             
                         <p className="demo"> Ready to explore our courses? </p>

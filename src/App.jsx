@@ -1,11 +1,11 @@
 import React from "react";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import AdmissionPage from "./pages/AdmissionPage";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 
 
