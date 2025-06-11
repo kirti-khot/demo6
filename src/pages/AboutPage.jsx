@@ -1,17 +1,17 @@
 import React from "react";
+
+import './style.css'
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import './style.css'
 const AboutPage = () => {
     return (
         <div className="content">
-            <Header/>
+            <Header />
             <div className="page-container">
                 <h1 className="demo2">About Vivekanand College</h1>
 
                 <p>Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering
-                transformative education since its inception in [Year of Establishment, e.g., 1980]. 
-                Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has consistently 
+                transformative education since its inception in [Year of Establishment, e.g., 1980]. Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has consistently 
                 strived to uphold the highest standards of academic rigor and ethical values.</p>
 
                 <p>Our vision is to empower students with critical thinking skills, a global perspective, 
@@ -41,7 +41,7 @@ const AboutPage = () => {
                 famous alumni if any]. Our journey began with a vision to make quality education available to all, 
                 and we continue that legacy today.</p>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

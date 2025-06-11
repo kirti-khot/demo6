@@ -2,10 +2,11 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
+
 const AdmissionPage = () => {
     return (
         <div className="content">
-            <Header/>
+            <Header />
             <div className="page-container">
                 <h1 className="demo2">Admission at Vivekanand College</h1>
                 <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering 
@@ -51,7 +52,7 @@ const AdmissionPage = () => {
                 <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee 
                 structures, please visit our <a href="CoursesPage"><u>Course page</u></a> or<a href="ContactPage"><u>Contact us</u></a> directly.</p>
             </div>    
-            <Footer/>
+            <Footer />
         </div>
     )
 }

@@ -1,12 +1,13 @@
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
+
 import './style.css'
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const ContactPage = () => {
     return (
         <div className="content">
-            <Header/>
+         <Header />
                 <div className="page-container">
                     <h1 className="demo2">Contact Us</h1>
 
@@ -43,8 +44,8 @@ const ContactPage = () => {
                     <hr></hr>
                     <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
                 </div>
-            <Footer/>
-
+           
+        <Footer />
      
         </div>
     )

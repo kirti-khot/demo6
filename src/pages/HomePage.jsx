@@ -1,17 +1,18 @@
 import React from "react";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+
 
 import './style.css'
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const HomePage = () => {
     return (
         
         <div className="content">
-            <Header/>
+            <Header />
                     <div className="page-container">
                         <div className="college-image">
-                            <img src="./Images/college.jpg" alt="VCK" className="college-image"></img>
+                            <img src="/Images/college.jpg" alt="VCK" className="college-image"></img>
                             <div className="front-image">
                                 <h1><b>Welcome to Vivekanand College!</b></h1>
                                 <p>Your journey to excellence starts here.</p>
@@ -35,15 +36,15 @@ const HomePage = () => {
                         </ul>
                         <h2>Campus Life & Facilities </h2>
                         <div>
-                            <img src="./Images/vck1.jpg" className="page1-container"></img>
-                            <img src="./Images/campus.jpg" className="page2-container"></img>
+                            <img src="/Images/vck1.jpg" className="page1-container"></img>
+                            <img src="/Images/campus.jpg" className="page2-container"></img>
                         </div>
             
                         <p className="demo"> Ready to explore our courses? </p>
                         <a href="CoursesPage" className="demo1">Explore Courses</a>
                     
                     </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

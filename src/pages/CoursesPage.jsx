@@ -1,12 +1,13 @@
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
+
 import './style.css'
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const CoursesPage = () => {
     return (
         <div className="content">
-            <Header/>
+            <Header />
             <div className="page-container">
                 <h1 className="demo2">Our Academic Programs</h1>
 
@@ -115,7 +116,7 @@ const CoursesPage = () => {
 
                 <a href="ContactPage" className="demo1">Inquire About Courses</a>
         </div>
-        <Footer/>
+        <Footer />
 
         </div>
     )
